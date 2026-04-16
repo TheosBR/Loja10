@@ -1,0 +1,57 @@
+/* FORMULÁRIO DE CADASTRO */
+.form {
+    width: 350px;
+    margin: 80px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+}
+
+.form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.form input:focus {
+    border-color: #3498db;
+}
+
+/* BOTÕES */
+.form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #27ae60;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background: #2ecc71;
+}
+
+/* BOTÃO VOLTAR */
+.voltar {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+}
+
+.voltar:hover {
+    color: #000;
+}

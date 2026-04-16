@@ -1,0 +1,7 @@
+.btn-excluir {
+    background: #e74c3c;
+}
+
+.btn-excluir:hover {
+    background: #c0392b;
+}

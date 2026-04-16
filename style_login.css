@@ -1,0 +1,100 @@
+/* RESET BÁSICO */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+/* HEADER */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* BOTÃO HEADER */
+.btn-cadastro {
+    background: #27ae60;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-cadastro:hover {
+    background: #2ecc71;
+}
+
+/* FORMULÁRIO LOGIN */
+.form {
+    width: 350px;
+    margin: 80px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* TÍTULO */
+.form h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* ERRO */
+.form p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* INPUT */
+.form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.form input:focus {
+    border-color: #3498db;
+}
+
+/* BOTÃO */
+.form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #27ae60;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background: #2ecc71;
+}
+
+/* LINK VOLTAR */
+.voltar {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+}
+
+.voltar:hover {
+    color: #000;
+}

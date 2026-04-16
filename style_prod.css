@@ -1,0 +1,112 @@
+/* RESET */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+/* HEADER */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* BOTÕES HEADER */
+.btn-cadastro {
+    background: #27ae60;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.btn-cadastro:hover {
+    background: #2ecc71;
+}
+
+/* BOTÃO SAIR (diferente) */
+.btn-cadastro[style] {
+    background: #e74c3c !important;
+}
+
+.btn-cadastro[style]:hover {
+    background: #c0392b !important;
+}
+
+/* FORMULÁRIO */
+.form {
+    width: 360px;
+    margin: 70px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* TÍTULO */
+.form h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* INPUTS */
+.form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* INPUT FILE DIFERENTE */
+.form input[type="file"] {
+    padding: 8px;
+    background: #fafafa;
+    cursor: pointer;
+}
+
+/* FOCO */
+.form input:focus {
+    border-color: #3498db;
+}
+
+/* BOTÃO PRINCIPAL */
+.form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #3498db;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background: #2980b9;
+}
+
+/* LINK VOLTAR */
+.voltar {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+}
+
+.voltar:hover {
+    color: #000;
+}
