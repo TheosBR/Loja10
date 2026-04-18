@@ -73,7 +73,7 @@ Além disso, o projeto também busca desenvolver:
 - **MySQL** → Armazenamento de dados  
 
 ### 🖥️ Ambiente de Desenvolvimento:
-- **XAMPP** → Servidor local (Apache + MySQL)  
+- **VScode** → Desenvolvimento do codigó  
 
 ### 🌐 Integrações:
 - **WhatsApp API (wa.me)** → Envio de pedidos  
